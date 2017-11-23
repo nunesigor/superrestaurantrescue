@@ -1,0 +1,42 @@
+2017-11-13 00:52:18 Debug: duration=0 rows=2 SHOW TABLES FROM `superrestaurant`
+2017-11-13 00:52:24 Debug: duration=0 rows=2 SHOW TABLES FROM `superrestaurant`
+2017-11-13 00:52:24 Debug: duration=2 rows=12 SHOW FULL COLUMNS FROM `product`
+2017-11-13 00:52:24 Debug: duration=0 rows=1 SHOW INDEXES FROM `product`
+2017-11-13 00:52:24 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'superrestaurant' AND kcu.TABLE_NAME = 'product' AND rc.TABLE_NAME = 'product'
+2017-11-13 00:52:24 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'product'
+2017-11-13 00:52:24 Debug: duration=0 rows=4 SHOW FULL COLUMNS FROM `users`
+2017-11-13 00:52:24 Debug: duration=0 rows=1 SHOW INDEXES FROM `users`
+2017-11-13 00:52:24 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'superrestaurant' AND kcu.TABLE_NAME = 'users' AND rc.TABLE_NAME = 'users'
+2017-11-13 00:52:24 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'users'
+2017-11-13 00:52:27 Debug: duration=1 rows=12 SHOW FULL COLUMNS FROM `product`
+2017-11-13 00:52:27 Debug: duration=0 rows=1 SHOW INDEXES FROM `product`
+2017-11-13 00:52:27 Debug: duration=0 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'superrestaurant' AND kcu.TABLE_NAME = 'product' AND rc.TABLE_NAME = 'product'
+2017-11-13 00:52:27 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'product'
+2017-11-13 00:52:29 Debug: duration=0 rows=12 SHOW FULL COLUMNS FROM `product`
+2017-11-13 00:52:29 Debug: duration=0 rows=1 SHOW INDEXES FROM `product`
+2017-11-13 00:52:29 Debug: duration=1 rows=0 SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (
+                kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME
+                AND kcu.CONSTRAINT_SCHEMA = rc.CONSTRAINT_SCHEMA
+            )
+            WHERE kcu.TABLE_SCHEMA = 'superrestaurant' AND kcu.TABLE_NAME = 'product' AND rc.TABLE_NAME = 'product'
+2017-11-13 00:52:29 Debug: duration=0 rows=1 SHOW TABLE STATUS WHERE Name = 'product'

@@ -1,0 +1,7 @@
+2017-11-20 00:07:37 Error: [RuntimeException] Unknown command `cake serve`. Run `cake --help` to get the list of valid commands. in /home/dev/Desktop/restaurantrescue/restaurantrescue/vendor/cakephp/cakephp/src/Console/CommandRunner.php on line 177
+Stack Trace:
+#0 /home/dev/Desktop/restaurantrescue/restaurantrescue/vendor/cakephp/cakephp/src/Console/CommandRunner.php(137): Cake\Console\CommandRunner->getShell(Object(Cake\Console\ConsoleIo), Object(Cake\Console\CommandCollection), 'serve')
+#1 /home/dev/Desktop/restaurantrescue/restaurantrescue/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
